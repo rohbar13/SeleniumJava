@@ -18,7 +18,6 @@ class Program1 {
 	 * @param args
 	 */
 	public static void main(String args[]) {
-		
 		System.out.println(c);
 		System.out.println(bl);
 		System.out.println(b);
