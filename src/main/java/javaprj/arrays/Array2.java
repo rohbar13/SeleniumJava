@@ -17,7 +17,6 @@ public class Array2 {
 				System.out.print(arr[x][y]+", ");
 			}
 			System.out.println();
-				
 		}
 	}
 }
