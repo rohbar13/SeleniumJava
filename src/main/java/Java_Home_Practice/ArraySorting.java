@@ -28,7 +28,7 @@ public class ArraySorting {
 		obj.arraySort(array);
 		obj.printArray(array);
 		
-		
+		scan.close();
 		
 
 	}
@@ -42,6 +42,7 @@ public class ArraySorting {
 			System.out.println("enter " + (i + 1) + " value for array");
 			array[i] = scan.nextInt();
 		}
+		scan.close();
 		return array;
 
 	}
