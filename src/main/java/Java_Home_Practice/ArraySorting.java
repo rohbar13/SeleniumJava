@@ -1,6 +1,5 @@
 package Java_Home_Practice;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArraySorting {
