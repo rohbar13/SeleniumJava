@@ -27,7 +27,7 @@ public class CharProgram {
 		//Sorting of array
 		
 	for(int i=0;i<5;i++)
-		for(int j=0;j<charArray.length;j++)
+		for(int j=0;j<charArray.length-1;j++)
 		{
 			if(charArray[i]>charArray[j])
 					{
@@ -39,6 +39,7 @@ public class CharProgram {
 		}
 		
 	System.out.println("Shorted Array is:");
+	System.out.println("Array length is:"+charArray.length);
 	for(int i=0;i<5;i++)
 	{
 		System.out.print(charArray[i]+",");

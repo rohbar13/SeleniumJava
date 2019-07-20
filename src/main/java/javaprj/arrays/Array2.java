@@ -3,9 +3,9 @@ package javaprj.arrays;
 public class Array2 {
 	public static void main(String[] args) {
 		
-		
-		Object x1[] = new String[3];
-        x1[0] = new Integer(0);
+		/*
+		 * Object x1[] = new String[3]; x1[0] = new Integer(0);
+		 */
 
 		int arr[][] = {{1,2},{3,4,5},{6,7,8,9}};
 		
