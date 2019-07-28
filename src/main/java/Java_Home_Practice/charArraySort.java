@@ -22,7 +22,7 @@ public class charArraySort {
 		
 		for(int i=0;i<size;i++)
 		{
-			charArray=scan.next().charAt(index)();
+			//charArray=scan.next().charAt(index)();
 					}
 		for(int i=0;i<size;i++)
 		{
