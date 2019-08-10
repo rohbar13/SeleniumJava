@@ -1,6 +1,6 @@
 package javaprj.inheritance;
 
-public class Engine {
+public class Engine{
 
 	String name;
 	String type;
