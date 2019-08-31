@@ -1,13 +1,9 @@
 package javaprj.stringhandling;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 public class StringClass1 {
 
 	public static void main(String[] args) {
 
-		
 		String str1 = "Welcome: Rohit Kant";
 		System.out.println(str1.charAt(0));
 		str1.concat("to add this string");
@@ -40,9 +36,7 @@ public class StringClass1 {
 		
 		System.out.println(actual.indexOf(' '));
 
-	
 		//
-		
 		
 		String s1 = "Bye world";
 		System.out.println(s1.hashCode());
