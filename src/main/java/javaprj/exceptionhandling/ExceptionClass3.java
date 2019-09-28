@@ -1,7 +1,5 @@
 package javaprj.exceptionhandling;
 
-import java.io.FileNotFoundException;
-
 public class ExceptionClass3 {
 
 	public static void main(String str[]) throws Throwable {
