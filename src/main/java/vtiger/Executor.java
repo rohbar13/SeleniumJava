@@ -1,9 +1,11 @@
 package vtiger;
 
+import java.io.IOException;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Executor {
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException, IOException {
 
 		BrowserClass browser = new BrowserClass();
 		ChromeDriver driver = browser.launchBrowser();
@@ -21,26 +23,28 @@ public class Executor {
 			System.out.println("-----------Login Successful---------------");
 		}
 		
-		
-			
+	
 		hp.selectModule(driver, "Leads");
 		
 		LeadClass lc = new LeadClass();
 		lc.addLead(driver,"Testing");
 		
-		hp.selectModule(driver, "Leads");
+		Screenshot sc = new Screenshot();
+		sc.takeScreenshot(driver,"addLead.png");
 		
-		lc.selectLead(driver,"Testing");
-		
-		lc.deleteLead(driver);
-		
-		hp.logout(driver);
-		
-		if(lp.validateLoginPage(driver)==true) {
-			System.out.println("---------Successfully loged out---------");
-		}else {
-			System.out.println("-------Logout failed-------");
-		}
+		/*
+		 * hp.selectModule(driver, "Leads");
+		 * 
+		 * lc.selectLead(driver,"Testing");
+		 * 
+		 * lc.deleteLead(driver);
+		 * 
+		 * hp.logout(driver);
+		 * 
+		 * if(lp.validateLoginPage(driver)==true) {
+		 * System.out.println("---------Successfully loged out---------"); }else {
+		 * System.out.println("-------Logout failed-------"); }
+		 */
 		
 		browser.closeBrowser(driver);
 		
